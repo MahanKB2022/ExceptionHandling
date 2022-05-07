@@ -15,6 +15,9 @@ public class Age
           {
               System.out.println("Please enter your current age");
           }
-          
+          catch(Exception e)
+          {
+                System.out.println(e);   
+          }
     }
 }
